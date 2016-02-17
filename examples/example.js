@@ -13,7 +13,7 @@ const testDivStyles = {
 
 ReactDOM.render(
   <div className="example">
-    <div>Content below only shows on screen size bigger than 500px </div>
+    <div>Content below is only rendered on screen size bigger than 500px </div>
     <MatchMedia mediaQuery={'(min-width: 500px)'}>
       <div style={testDivStyles}>I am rendered</div>
     </MatchMedia>
