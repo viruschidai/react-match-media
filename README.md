@@ -14,7 +14,7 @@ npm i react-match-media
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { MatchMedia } from '../src';
+import { MatchMedia } from 'react-match-media';
 
 ReactDOM.render(
   <div className="example">
