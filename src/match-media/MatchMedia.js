@@ -15,7 +15,7 @@ export default class MatchMedia extends Component {
     this.onMatch(this.mql);
   }
 
-  componentWillUnMount() {
+  componentWillUnmount() {
     this.mql && this.mql.removeListener(this.onMatch);
   }
 
