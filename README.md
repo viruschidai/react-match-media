@@ -5,10 +5,7 @@ A [React](https://github.com/facebook/react) component that allows you to condit
 Underline it uses [window.matchMedia](https://developer.mozilla.org/en/docs/Web/API/Window/matchMedia)
 
 ## Use cases
-If you have a resonsive website that initially renders mobile first content, and then conditionally load more contents (like ads) based on screen size or any other type of media queries, this component might be useful for you.
-
-### Why not use css media query to hide component?
-For most use case, css media query is good enough. This lib is useful if you don't want to render a react component that talks to thirdparty API/adServer for certain screen size (or any other media queries).
+For most use case, css media query might be good enough (But why hide something rendered instead of not rendering it?). This lib is useful if you don't want to render react components that directly talk to API or adServer for certain screen size (or any other media queries).
 
 ![alt tag](./match-media.gif)
 
