@@ -7,7 +7,7 @@ Underline it uses [window.matchMedia](https://developer.mozilla.org/en/docs/Web/
 ## Use cases
 For most use case, css media query might be good enough (But why hide something rendered instead of not rendering it?). This lib is useful if you don't want to render react components that directly talk to API or adServer for certain screen size (or any other media queries).
 
-![alt tag](./match-media.gif)
+![alt tag](https://github.com/viruschidai/react-match-media/blob/master/match-media.gif)
 
 ## Usage
 ### Install
