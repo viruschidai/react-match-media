@@ -54,7 +54,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/viruschidai/react-match-media"
   },
   "license": "MIT",
   "directories": {
