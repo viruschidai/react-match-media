@@ -1,6 +1,6 @@
 {
   "name": "react-match-media",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A react component allows you to conditionally render your components based on media queries.",
   "engines": {
     "node": ">=5.2"
