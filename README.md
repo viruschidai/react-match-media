@@ -4,6 +4,8 @@ MatchMedia
 A [React](https://github.com/facebook/react) component that allows you to conditionally render your components based on media queries. 
 Underline it uses [window.matchMedia](https://developer.mozilla.org/en/docs/Web/API/Window/matchMedia)
 
+![alt tag](./match-media.gif)
+
 ## Usage
 ### Install
 ```
