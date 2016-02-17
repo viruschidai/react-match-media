@@ -36,7 +36,7 @@ export default class MatchMedia extends Component {
 }
 
 MatchMedia.propTypes = {
-  mediaQuery: React.PropTypes.string.requred
+  mediaQuery: React.PropTypes.string.isRequired
 };
 
 function isClient() {
