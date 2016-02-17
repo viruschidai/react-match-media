@@ -41,8 +41,6 @@
     "karma-junit-reporter": "^0.3.8",
     "karma-phantomjs-launcher": "^0.2.3",
     "karma-webpack": "^1.7.0",
-    "phantomjs": "^1.9.19",
-    "phantomjs-polyfills": "0.0.1",
     "react-addons-test-utils": "^0.14.2",
     "react-hot-loader": "^1.3.0",
     "watch": "^0.17.1",
