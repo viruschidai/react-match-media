@@ -1,5 +1,6 @@
 MatchMedia
 =====================
+[![Build Status](https://travis-ci.org/viruschidai/react-match-media.png?branch=master)](https://travis-ci.org/viruschidai/react-match-media)
 
 A [React](https://github.com/facebook/react) component that allows you to conditionally render your components based on media queries. 
 Underline it uses [window.matchMedia](https://developer.mozilla.org/en/docs/Web/API/Window/matchMedia)
