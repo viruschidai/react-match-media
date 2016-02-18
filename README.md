@@ -5,7 +5,6 @@ A [React](https://github.com/facebook/react) component that allows you to condit
 Underline it uses [window.matchMedia](https://developer.mozilla.org/en/docs/Web/API/Window/matchMedia)
 
 
-See it in action:
 ![alt tag](https://github.com/viruschidai/react-match-media/blob/master/match-media.gif)
 
 ## Usage
