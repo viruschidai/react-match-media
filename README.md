@@ -1,12 +1,11 @@
-react-match-media
-=====================
+react match media for building responsive website
+=========================================
 
-A [React](https://github.com/facebook/react) component that allows you to conditionally render your components based on media queries. 
+A [React](https://github.com/facebook/react) component that allows you to conditionally render your components based on media queries for your responsive website. 
 Underline it uses [window.matchMedia](https://developer.mozilla.org/en/docs/Web/API/Window/matchMedia)
 
-## Use cases
-For most use case, css media query might be good enough (But why hide something rendered instead of not rendering it?). This lib is useful if you don't want to render react components that directly talk to API or adServer for certain screen size (or any other media queries).
 
+See it in action:
 ![alt tag](https://github.com/viruschidai/react-match-media/blob/master/match-media.gif)
 
 ## Usage
