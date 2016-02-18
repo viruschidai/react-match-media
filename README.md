@@ -1,7 +1,8 @@
-react match media for building responsive website
+React Match Media
 =========================================
 
 A [React](https://github.com/facebook/react) component that allows you to conditionally render your components based on media queries for your responsive website. 
+
 Underline it uses [window.matchMedia](https://developer.mozilla.org/en/docs/Web/API/Window/matchMedia)
 
 
