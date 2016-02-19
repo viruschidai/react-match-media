@@ -28,7 +28,7 @@ ReactDOM.render(
     </MatchMedia>
   </div>,
   document.getElementById('root')
-
+)
 ```
 For more, see the [examples](./examples)
 
