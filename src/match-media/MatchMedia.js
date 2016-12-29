@@ -10,6 +10,7 @@ export default class MatchMedia extends Component {
   }
 
   componentDidMount() {
+    if ( !window.matchMedia ) return;
     this.mql = window.matchMedia(this.props.mediaQuery);
     this.mql.addListener(this.onMatch);
     this.onMatch(this.mql);
