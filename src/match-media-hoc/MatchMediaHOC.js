@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
-export default class MatchMedia extends Component {
-
+const MatchMediaHOC = (ComposedComponent, mediaQuery) => class extends Component {
   constructor(props) {
     super(props);
     this.state = {show: false};
@@ -11,7 +10,8 @@ export default class MatchMedia extends Component {
 
   componentDidMount() {
     if ( !window.matchMedia ) return;
-    this.mql = window.matchMedia(this.props.mediaQuery);
+
+    this.mql = window.matchMedia(mediaQuery);
     this.mql.addListener(this.onMatch);
     this.onMatch(this.mql);
   }
@@ -26,20 +26,13 @@ export default class MatchMedia extends Component {
   }
 
   render() {
-    if (!this.props.children || !isClient() || !this.state.show) return false;
-
-    return(
-      <div className="match-media">
-        {this.props.children}
-      </div>
-    );
+    if (!this.state.show) return false;
+    return <ComposedComponent {...this.props} />;
   }
-}
+};
 
-MatchMedia.propTypes = {
+MatchMediaHOC.propTypes = {
   mediaQuery: React.PropTypes.string.isRequired
 };
 
-function isClient() {
-  return typeof window !== 'undefined';
-}
+export default MatchMediaHOC;

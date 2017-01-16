@@ -1,7 +1,7 @@
 React Match Media
 =========================================
 
-A [React](https://github.com/facebook/react) component that allows you to conditionally render your components based on media queries for your responsive website. 
+A [React](https://github.com/facebook/react) component that allows you to conditionally render your components based on media queries for your responsive website.
 
 Underline it uses [window.matchMedia](https://developer.mozilla.org/en/docs/Web/API/Window/matchMedia)
 
@@ -18,14 +18,16 @@ npm i react-match-media
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { MatchMedia } from 'react-match-media';
+import { MatchMediaHOC } from 'react-match-media';
+
+const ComponentForBigScreen = MatchMediaHOC(SomeComponent, '(min-width: 800px)');
+const ComponentForSmallScreen = MatchMediaHOC(SomeComponent, '(max-width: 500px)');
 
 ReactDOM.render(
   <div className="example">
     <SomeElementAlwaysRendered />
-    <MatchMedia mediaQuery={'(min-width: 800px)'}>
-      <ElementRenderedWhenMatchMediaQuery />
-    </MatchMedia>
+    <ComponentForBigScreen />
+    <ComponentForSmallScreen />
   </div>,
   document.getElementById('root')
 )
@@ -58,7 +60,7 @@ npm run lint
 ### Testing
 
 ```
-npm run test 
+npm run test
 ```
 
 ### To generate distribution code
@@ -66,6 +68,13 @@ npm run test
 ```
 npm run build
 ```
+
+### Changelog
+
+**v2.0.0 - 16/Jan/2017**
+
+Introduced a `MatchMediaHOC` high order component to replace the previous `MatchMedia` component.
+
 
 ### License
 MIT

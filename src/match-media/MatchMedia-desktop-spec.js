@@ -13,7 +13,7 @@ describe('MatchMedia', function () {
   });
 
   it('renders when window size >= 500px', function () {
-    let testElement = ReactTestUtils.findRenderedDOMComponentWithClass(page, 'testDiv');
+    const testElement = ReactTestUtils.findRenderedDOMComponentWithClass(page, 'testDiv');
     expect(testElement).toBeDefined();
   });
 });
