@@ -13,7 +13,7 @@ describe('MatchMedia', function () {
   });
 
   it('should not render on window size less than 500px', function () {
-    let testElements = ReactTestUtils.scryRenderedDOMComponentsWithClass(page, 'testDiv');
+    const testElements = ReactTestUtils.scryRenderedDOMComponentsWithClass(page, 'testDiv');
     expect(testElements.length).toBe(0);
   });
 });
