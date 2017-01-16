@@ -25,7 +25,7 @@
     "max-depth": [2, 2],
     "complexity": [2, 6],
     "max-len": [2, 160, 4],
-    "new-cap": 2,
+    "new-cap": 0,
     "semi": 2,
     "no-trailing-spaces": 2,
     "space-before-blocks": 2,
