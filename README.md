@@ -37,8 +37,10 @@ For more, see the [examples](./examples)
 ### Supported browsers
   - IE10 and above
   - All other major browsers
-
+  
+For older browsers, you need to polyfill `window.matchMedia`. 
 For more, see [Can I Use matchMedia](http://caniuse.com/#search=matchMedia)
+
 
 ## Development of this component
 
