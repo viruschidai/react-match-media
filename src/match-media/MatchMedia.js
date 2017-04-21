@@ -29,7 +29,7 @@ export default class MatchMedia extends Component {
     if (!this.props.children || !isClient() || !this.state.show) return false;
 
     return(
-      <div className="match-media">
+      <div className={`${this.props.className || ''} match-media`.trim()}>
         {this.props.children}
       </div>
     );
@@ -37,6 +37,7 @@ export default class MatchMedia extends Component {
 }
 
 MatchMedia.propTypes = {
+  className: React.PropTypes.string,
   mediaQuery: React.PropTypes.string.isRequired
 };
 
