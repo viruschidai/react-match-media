@@ -1,6 +1,8 @@
 React Match Media
 =========================================
 
+[![Downloads](https://img.shields.io/npm/dm/react-match-media.svg)](https://www.npmjs.com/package/react-match-media)
+
 A [React](https://github.com/facebook/react) component that allows you to conditionally render your components based on media queries for your responsive website.
 
 Underline it uses [window.matchMedia](https://developer.mozilla.org/en/docs/Web/API/Window/matchMedia)
