@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 export default class MatchMedia extends Component {
 
@@ -37,7 +38,7 @@ export default class MatchMedia extends Component {
 }
 
 MatchMedia.propTypes = {
-  mediaQuery: React.PropTypes.string.isRequired
+  mediaQuery: PropTypes.string.isRequired
 };
 
 function isClient() {
