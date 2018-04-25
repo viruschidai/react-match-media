@@ -75,6 +75,10 @@ npm run build
 
 ### Changelog
 
+**v2.2.0 - 25/April/2018**
+
+Used PropTypes from 'prop-types' package
+
 **v2.0.0 - 16/Jan/2017**
 
 Introduced a `MatchMediaHOC` high order component to replace the previous `MatchMedia` component.
