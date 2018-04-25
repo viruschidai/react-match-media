@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 const MatchMediaHOC = (ComposedComponent, mediaQuery) => class extends Component {
   constructor(props) {
@@ -32,7 +33,7 @@ const MatchMediaHOC = (ComposedComponent, mediaQuery) => class extends Component
 };
 
 MatchMediaHOC.propTypes = {
-  mediaQuery: React.PropTypes.string.isRequired
+  mediaQuery: PropTypes.string.isRequired
 };
 
 export default MatchMediaHOC;
