@@ -19,7 +19,7 @@
     "testDesktop": "NODE_ENV=test karma start karma.conf.desktop.js --browsers desktop",
     "testMobile": "NODE_ENV=test karma start karma.conf.mobile.js --browsers mobile",
     "test": "npm run testDesktop && npm run testMobile",
-    "prepublish": "npm run lint && npm test && npm build"
+    "prepublish": "npm run lint && npm test && npm run build"
   },
   "main": "lib/index.js",
   "devDependencies": {
