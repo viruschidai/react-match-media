@@ -34,7 +34,7 @@
     "eslint": "1.10.3",
     "eslint-plugin-react": "3.16.1",
     "eventsource-polyfill": "0.9.6",
-    "express": "4.17.0",
+    "express": "4.17.1",
     "jasmine-core": "2.99.1",
     "karma": "0.13.22",
     "karma-chrome-launcher": "0.2.3",
